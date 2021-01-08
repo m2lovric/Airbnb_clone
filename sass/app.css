@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&display=swap");
+.header__search:hover, .header__profile__menu:hover {
+  -webkit-box-shadow: 2px 2px 6px 0px #ccc;
+          box-shadow: 2px 2px 6px 0px #ccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.grid--full {
+  width: 100%;
+}
+
+.grid--large {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header-box {
+  -webkit-box-shadow: 4px 4px 10px 10px #f5f5f5;
+          box-shadow: 4px 4px 10px 10px #f5f5f5;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  width: 120px;
+  height: auto;
+}
+
+.header__search {
+  width: 290px;
+  height: 2.875rem;
+  margin-left: 10%;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  border-radius: 1.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  outline: none;
+  font-size: 0.875rem;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+}
+
+.header__search p {
+  padding: 1rem;
+}
+
+.header__search img {
+  width: 2rem;
+  height: auto;
+}
+
+.header__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 22%;
+}
+
+.header__profile__host {
+  font-size: 0.875rem;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+}
+
+.header__profile__lang {
+  width: 1.2rem;
+  height: auto;
+}
+
+.header__profile__menu {
+  height: 2.625rem;
+  width: 78px;
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 1.3rem;
+}
+
+.header__profile__menu img:first-child {
+  width: 1.2rem;
+  height: auto;
+  padding-left: 0.5rem;
+}
+
+.header__profile__menu img:last-child {
+  width: 1.875rem;
+  height: auto;
+}
+/*# sourceMappingURL=app.css.map */
