@@ -46,7 +46,7 @@ body {
 .header__search {
   width: 290px;
   height: 2.875rem;
-  margin-left: 10%;
+  margin-left: 12%;
   background-color: transparent;
   border: 1px solid #dddddd;
   border-radius: 1.4rem;
@@ -63,6 +63,7 @@ body {
   font-size: 0.875rem;
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .header__search p {
@@ -84,18 +85,32 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 22%;
+  width: 25%;
 }
 
 .header__profile__host {
   font-size: 0.875rem;
   font-family: 'Cabin', sans-serif;
   font-weight: 500;
+  cursor: pointer;
+  border-radius: 1rem;
+  padding: 0.6rem 1rem;
+}
+
+.header__profile__host:hover {
+  background-color: #f5f5f5;
 }
 
 .header__profile__lang {
   width: 1.2rem;
   height: auto;
+  cursor: pointer;
+  border-radius: 1.4rem;
+  padding: 0.8rem 1rem;
+}
+
+.header__profile__lang:hover {
+  background-color: #f5f5f5;
 }
 
 .header__profile__menu {
@@ -113,6 +128,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-radius: 1.3rem;
+  cursor: pointer;
 }
 
 .header__profile__menu img:first-child {
