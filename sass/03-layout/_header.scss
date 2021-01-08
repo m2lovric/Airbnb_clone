@@ -17,7 +17,7 @@
   &__search {
     width: 290px;
     height: 2.875rem;
-    margin-left: 10%;
+    margin-left: 12%;
     background-color: transparent; 
     border: 1px solid $gray-light;
     border-radius: 1.4rem;
@@ -28,6 +28,7 @@
     font-size: 0.875rem;
     font-family: 'Cabin', sans-serif;
     font-weight: 500;
+    cursor: pointer;
 
     p {
       padding: 1rem;
@@ -46,17 +47,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 22%;
+    width: 25%;
 
     &__host {
       font-size: 0.875rem;
       font-family: 'Cabin', sans-serif;
       font-weight: 500;
+      cursor: pointer;
+      border-radius: 1rem;
+      padding: 0.6rem 1rem;
+    }
+
+    &__host:hover {
+      background-color: $gray-lighter;
     }
 
     &__lang {
       width: 1.2rem;
       height: auto;
+      cursor: pointer;
+      border-radius: 1.4rem;
+      padding: 0.8rem 1rem;
+    }
+
+    &__lang:hover {
+      background-color: $gray-lighter;
     }
 
     &__menu {
@@ -68,6 +83,7 @@
       align-items: center;
       justify-content: space-between;
       border-radius: 1.3rem;
+      cursor: pointer;
 
       img:first-child {
         width: 1.2rem;
