@@ -10,7 +10,7 @@ body {
   font-size: 16px;
 }
 
-p {
+h1, h2, h3, h4, h5, p {
   font-family: 'Cabin', sans-serif;
 }
 
@@ -253,5 +253,59 @@ p {
   -o-object-fit: cover;
      object-fit: cover;
   margin: 0;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.info__header {
+  width: 60%;
+  padding: 3rem 0 1.5rem 0;
+  border-bottom: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__header img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.info__about {
+  padding-top: 3rem;
+}
+
+.info__about__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.info__about__article div {
+  margin-left: 20px;
+}
+
+.info__about__article h2 {
+  margin-top: 0;
 }
 /*# sourceMappingURL=app.css.map */
